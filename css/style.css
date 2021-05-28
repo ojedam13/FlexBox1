@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-image: radial-gradient(circle, rgb(226, 98, 51),rgb(250, 142, 102));
+    background-repeat: no-repeat;
+    margin: 0;
+    color: rgb(150, 23, 61);
+    height: 100vh;
+}
+img{
+    max-width: 80%;
+    /* height: 300px; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.card {
+/* background-color: #333; */
+width: 80%;
+height: 450px;
+display: flex;
+margin: 2em auto;
+}
+
+.card__left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    /* background-color: #222; */
+    justify-content: center;
+    padding: .5rem 0;
+}
+
+.card__right{
+    width: 80%;
+    padding: 0 1rem;
+}
+
+.card__title{
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.form__names input {
+    width: 90%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+
+}
+
+.form__field{
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+.form__names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__label{
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+
+}
+
+.form__input,
+.form__textarea{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(150, 23, 61);
+    color: inherit;
+}
+
+.form__textarea{
+    resize: none;
+    border: 1px solid rgb(150, 23, 61);
+    flex-basis: 100px;
+}
+
+.form__submit{
+    width: 40%;
+    background: rgb(37, 12, 19);
+    border: none;
+    padding: .8rem;
+    border-radius: .8rem;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: inherit;
+}
